@@ -1,4 +1,4 @@
-<h2NginxMemorypool所有非静态成员函数的作用：<h2>
+<h2>NginxMemorypool所有非静态成员函数的作用：</h2>
 ```c++
     //创建指定size大小的内存池但不超过1个页面大小
     bool ngx_mem_pool::ngx_create_pool(size_t size);
